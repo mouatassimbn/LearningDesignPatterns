@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryPattern
 {
-    internal interface ITiger
+    internal class PetDog : IDog
     {
-        void AboutMe();
+        public void AboutMe()
+        {
+            Console.WriteLine("Pet dog says: Bow-Wow. I prefer to stay at home.");
+        }
     }
 }

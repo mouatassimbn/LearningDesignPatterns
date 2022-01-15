@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryPattern
 {
-    internal interface ITiger
+    internal interface IAnimalFactory
     {
-        void AboutMe();
+        IDog GetDog();
+        ITiger GetTiger();
     }
 }
