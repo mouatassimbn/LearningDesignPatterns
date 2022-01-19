@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyweightPattern", "Flyweig
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{E1A0601B-8A08-4789-8E6D-FB78C83423AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{74A6EA61-E9B2-4AC6-A56C-55D4372243BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{74A6EA61-E9B2-4AC6-A56C-55D4372243BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{5BCAAF3D-B0CB-41FB-BA3D-15119281BDD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{5BCAAF3D-B0CB-41FB-BA3D-15119281BDD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorCompositePatterns", "VisitorCompositePatterns\VisitorCompositePatterns.csproj", "{DBA3465C-7F6B-4C95-8FB5-74EED7C8F215}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{5BCAAF3D-B0CB-41FB-BA3D-15119281BDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BCAAF3D-B0CB-41FB-BA3D-15119281BDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BCAAF3D-B0CB-41FB-BA3D-15119281BDD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA3465C-7F6B-4C95-8FB5-74EED7C8F215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA3465C-7F6B-4C95-8FB5-74EED7C8F215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA3465C-7F6B-4C95-8FB5-74EED7C8F215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA3465C-7F6B-4C95-8FB5-74EED7C8F215}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
