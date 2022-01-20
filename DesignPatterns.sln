@@ -29,11 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "BridgePatt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{5BCAAF3D-B0CB-41FB-BA3D-15119281BDD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorCompositePatterns", "VisitorCompositePatterns\VisitorCompositePatterns.csproj", "{DBA3465C-7F6B-4C95-8FB5-74EED7C8F215}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorCompositePatterns", "VisitorCompositePatterns\VisitorCompositePatterns.csproj", "{DBA3465C-7F6B-4C95-8FB5-74EED7C8F215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{DFB2D41E-7697-4820-B913-3D72E3F4B589}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{DFB2D41E-7697-4820-B913-3D72E3F4B589}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{932D37D3-2614-40AE-B502-AB3C0F10031E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{932D37D3-2614-40AE-B502-AB3C0F10031E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{0B70D18B-3048-402B-8AB3-971DF3A56099}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{932D37D3-2614-40AE-B502-AB3C0F10031E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{932D37D3-2614-40AE-B502-AB3C0F10031E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{932D37D3-2614-40AE-B502-AB3C0F10031E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B70D18B-3048-402B-8AB3-971DF3A56099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B70D18B-3048-402B-8AB3-971DF3A56099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B70D18B-3048-402B-8AB3-971DF3A56099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B70D18B-3048-402B-8AB3-971DF3A56099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
