@@ -35,9 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "Observer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{932D37D3-2614-40AE-B502-AB3C0F10031E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{0B70D18B-3048-402B-8AB3-971DF3A56099}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{0B70D18B-3048-402B-8AB3-971DF3A56099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{F1E0BE51-0278-400A-B7A2-F5AD07AD7868}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{F1E0BE51-0278-400A-B7A2-F5AD07AD7868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{678B19F9-4EA9-4EE8-AF21-D712948CEF74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{F1E0BE51-0278-400A-B7A2-F5AD07AD7868}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1E0BE51-0278-400A-B7A2-F5AD07AD7868}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1E0BE51-0278-400A-B7A2-F5AD07AD7868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678B19F9-4EA9-4EE8-AF21-D712948CEF74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678B19F9-4EA9-4EE8-AF21-D712948CEF74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678B19F9-4EA9-4EE8-AF21-D712948CEF74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678B19F9-4EA9-4EE8-AF21-D712948CEF74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
